@@ -1,0 +1,8 @@
+VERIFICATION SCOPE
+1. Python compilation: performed locally.
+2. Offline HTML extraction: performed locally against a five-card fixture.
+3. CSV creation/filtering: performed locally.
+4. robots.txt parsing logic: performed via a fake HTTP session in unit tests.
+5. Public website verification: website has 250 country cards and robots.txt does not disallow /pages/simple/ (checked independently through a web retrieval tool).
+6. DIRECT LIVE PYTHON HTTP RUN: NOT PERFORMED - this execution container has no outbound DNS/HTTPS.
+Repeat on your own computer for genuine live console screenshots before submitting.
